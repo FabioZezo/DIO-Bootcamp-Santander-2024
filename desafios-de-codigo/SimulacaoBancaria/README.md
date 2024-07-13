@@ -16,25 +16,26 @@ o	3: O programa apenas exibirá o saldo atual da conta: "Saldo atual: {saldo com
 o	0: O programa encerrará, imprimindo "Programa encerrado.".
 ### Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
-Entrada	Saída
-1
-50
-2
-100
-0	Saldo atual: 50.0
-Saldo insuficiente.
-Programa encerrado.
-3
-1
-550 
-0	Saldo atual: 0.0
-Saldo atual: 550.0
-Programa encerrado.
-1
-1000
-2
-500
-0	Saldo atual: 1000.0
-Saldo atual: 500.0
-Programa encerrado.
+| Entrada | Saída               |
+| ------- | ------------------- |
+| 1       |
+| 50      | Saldo atual: 50.0   |
+| 2       |
+| 100     | Saldo insuficiente. |
+| 0       | Programa encerrado. |
+
+| Entrada | Saída               |
+| ------- | ------------------- |
+| 3       | Saldo atual: 0.0    |
+| 1       |
+| 550     | Saldo atual: 550.0  |
+| 0       | Programa encerrado. |
+
+| Entrada | Saída               |
+| ------- | ------------------- |
+| 1       |
+| 1000    | Saldo atual: 1000.0 |
+| 2       |
+| 500     | Saldo atual: 500.0  |
+| 0       | Programa encerrado. |
 
